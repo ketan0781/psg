@@ -1,0 +1,25 @@
+/*UX*/
+
+#breadcrumb {
+	width: 960px;
+	padding: 0px 0 15px 0px;
+	font: 12px arial;
+	background-color: #fff;
+	color: #3d3c3c;
+	margin: 0 auto;
+}
+	#breadcrumb span {
+		padding: 0 10px;
+		color: #9c9c9c;
+		background:url(../../images/global-nav/breadcrumb-arrow.png) no-repeat;
+		background-size: 5px 10px;
+		background-position:center center
+	}
+	#breadcrumb a {
+		text-decoration: none;
+		color: #9c9c9c;
+	}
+	#breadcrumb a:hover,
+	#breadcrumb a:focus ,	#breadcrumb a.js_focus { color: #9c9c9c;}
+	
+#dashboard #breadcrumb { border-bottom: none; }

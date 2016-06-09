@@ -1,0 +1,1066 @@
+/*link page nav style*/
+
+div#linksToPages {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+ul#link-menu {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    background: #000;
+    height: 500px;
+    z-index: 200;
+    margin-left: -30px;
+}
+
+ul#link-menu a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul#link-menu li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0px;
+    padding-left: 4px;
+    border-bottom: 1px solid;
+    width: 240px;
+}
+
+
+
+/*wrapper style*/
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.saving-header h2 {
+    width: 410px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+span.asterisk {
+    color: #8c8c8c;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.saving-header p {
+    color: #8c8c8c;
+    margin-top: 0px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.saving-header p >a {
+    color: #8c8c8c;
+    background: url(../images/right-arrow-gray.png) no-repeat right 0px top 3px;
+    background-size: 10px 10px;
+    padding-right: 13px;
+    font-size: 12px;
+}
+
+.cust-header {
+    position: relative;
+    height: 45px;
+}
+
+.cust-header button {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    color: #FFF;
+    margin-left: 30px;
+}
+
+.cust-header div:last-child {
+    float: right;
+    width: 255px;
+    height: 50px;
+    vertical-align: top;
+}
+label span{
+    position: relative;
+    top: 2px;
+}
+label a {
+    color: #37BAAB;
+    position: relative;
+    top: 2px;
+    left: 0px;
+}
+
+.check-All {
+    /*border: 1px solid;*/
+    padding: 10px 0px 1px 5px;
+    display: inline-block;
+    width: 148px;
+    height: 33px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+
+}
+.check-All:hover{
+    background-color:#FFFFFF;
+    border:2px solid #E9E9E9;
+    
+/*    -webkit-transition:border-color 1s ease; 
+    -moz-transition:border-color 1s ease; 
+    -o-transition:border-color 1s ease; 
+    transition:border-color 1s ease;*/
+    /*box-shadow:
+                1px 1px #E9E9E9,
+                2px 2px #E9E9E9,
+                3px 3px #E9E9E9;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+*/
+}
+
+.check-All input[type="checkbox"] + label {
+    font-weight: bold;
+}
+.option input[type="checkbox"] + label {
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: -13px;
+    left: 0px;
+    height: 60px;
+    width: 299px;
+    z-index: 1000;
+}
+.option input[type="checkbox"] + label span {
+    display: block;
+    width: 20px;
+    height: 20px;
+   /* border: 2px solid #000;*/
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+    top: 18px;
+    left: 18px;
+    background-color: #FFFFFF;
+    padding: 0px;
+}
+
+.check-All input[type="checkbox"] + label span {
+    top: 22px;
+    left: -34px;
+}
+
+#wrapper .cust-header button>span {
+    color: #CC0000;
+    position: absolute;
+    border-radius: 12px;
+    background-color: #FFF;
+    top: -10px;
+    right: -7px;
+    border: 2px solid #CC0000;
+    padding: 1px 6px;
+    line-height: 18px;
+    z-index: 1000;
+    display: none;
+}
+
+.cust-header div:last-child p {
+    position: relative;
+    bottom: 14px;
+    color: #646464;
+    right: 20px;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 4px;
+    width: 115px;
+    padding-right: 5px;
+}
+
+p span.total-amount,
+.d-sign {
+    color: #000;
+    font-size: 21px;
+    font-weight: 500;
+    display: inline-block;
+    
+}
+.d-sign{
+    display: none;
+}
+.d-sign2{
+    display: none;
+    visibility: hidden;
+}
+span.d-sign {
+    position: relative;
+    right: 3px;
+}
+.cust-header div:first-child p>span {
+    display: block;
+    text-align: right;
+}
+.display{
+    display: none;
+}
+#family {
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+
+.member {
+    position: relative;
+    top: -7px;
+}
+.option-main{
+    display: inline-block;
+    position: relative;
+}
+.option-main .top-border{
+    width: 303px;
+    border-top: 2px solid black;
+    position: absolute; 
+    top: 28px;
+}
+.member .option {
+    display: inline-block;
+    /*border-top: 2px solid black;*/
+    border-bottom: 2px solid #E9E9E9;
+    border-right: 2px solid #E9E9E9;
+    border-left: 2px solid #E9E9E9;
+    margin-right: 20px;
+    margin-top: 30px;
+    vertical-align: top;
+    width: 303px;
+    box-sizing: border-box;
+    /*box-shadow: 10px 10px 5px #ccc;*/
+}
+
+/*.option-main .option:nth-child(4n+3) {
+    margin-right: 0px;
+    background-color: blue;
+}*/
+ .member .option.box3{
+    margin-right: 0px;
+}
+.container h2 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+div#family h4 {
+    margin: 20px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.option {
+    background-color: #FFFFFF;
+}
+
+.option div h5 {
+    margin: 0px 0px 2px 0px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.option div div {
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    color: #646464;
+}
+
+.switch+span {
+    color: #646464;
+    font-size: 14px;
+}
+
+.drug-info {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.drug-info span {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #646464;
+    font-weight: 400;
+}
+
+.drug-info span>span {
+    font-weight: 600;
+}
+
+.option .avgSaving {
+    color: #FFFFFF;
+    background-color: #37BAAB;
+    margin: 10px 0px 0px 0px;
+    padding: 7px 0px 7px 20px;
+    font-weight: 500;
+}
+
+
+/*span.pricePerDrug {
+    font-weight: 500;
+}*/
+
+.avgSaving+div {
+    border: none!important;
+}
+
+.option div:last-child {
+    border-top: 2px solid #E9E9E9;
+}
+
+.option .switchTo90day {
+    position: relative;
+    padding: 13px 0px 15px 50px;
+    min-height: 30px;
+    background-color: #FFFFFF;
+}
+
+.option .switchTo90day:hover {
+    background-color: #F5F5F5;
+}
+
+.switchTo90day div {
+    font-weight: 600;
+    color: #000000!important;
+}
+
+.swithToGeneric div {
+    font-weight: 600;
+    color: #000000!important;
+}
+
+.option .switchTo90day .check {
+    position: absolute;
+    left: 0px;
+}
+
+.selectionMade {
+    position: relative;
+}
+
+.selectionMade img {
+    left: -28px;
+    top: 7px;
+}
+
+.selectionMade span {
+    padding-left: 3px;
+    font-weight: 200;
+    color: #686868;
+    position: relative;
+    top: 10px;
+}
+
+.option .switchTo90day .abc {
+    position: absolute;
+    left: 0px;
+}
+
+.option .swithToGeneric {
+    position: relative;
+    padding: 13px 0px 15px 50px;
+    min-height: 30px;
+}
+
+.option .swithToGeneric:hover {
+    background-color: #F5F5F5;
+}
+
+.option .swithToGeneric .check {
+    position: absolute;
+    left: 0px;
+}
+
+.option .swithToGeneric .abc {
+    position: absolute;
+    left: 0px;
+}
+
+.option div {
+    position: relative;
+}
+
+.option div img {
+    position: absolute;
+    float: right;
+    bottom: 14px;
+    right: -12px;
+}
+
+.fine-print {
+    color: #8c8c8c;
+    font-size: 12px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+/*talk to doc */
+
+.doc {
+    position: relative;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 30px;
+    background: url(../images/icon-lg-talk2doc.png) no-repeat left -6px top 50px;
+    background-size: 80px;
+}
+
+.talk2doc {
+    padding: 10px 0px 5px 80px;
+}
+
+.doc div h4,
+.no-action-req div h4 {
+    position: relative;
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-top: 38px;
+}
+
+.doc div p,
+.no-action-req div p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #1E1E1E;
+}
+
+.print4doct {
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #000!important;
+    border-bottom: none;
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+    height: 47px;
+}
+
+.print4doct p {
+    display: inline-block;
+    color: #FFF!important;
+    vertical-align: middle;
+    margin-top: 14px!important;
+    padding-left: 20px;
+}
+
+.print4doct div {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background: #313131;
+    height: 47px;
+    width: 47px;
+}
+
+.print4doct div img {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.doc div select {
+    opacity: 1;
+}
+
+.select {
+    width: 140px;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.select-name {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 80px;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #37BAAB!important;
+    position: absolute!important;
+    top: 31px;
+    left: 20px;
+    z-index: 100;
+}
+
+
+/*no action require*/
+
+.no-action-req {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 30px;
+}
+
+.no-action-req .tropy {
+    position: relative;
+    padding: 5px 0px 40px 80px;
+    background: url(../images/icon-lg-trophy.png) no-repeat left -6px top 40px;
+    background-size: 80px;
+}
+
+.taking-Adv-Drug:nth-child(3n+4) {
+    margin-right: 0px;
+}
+.taking-Adv{
+    display: inline-block;
+    position: relative;
+}
+.taking-Adv .top-border2{
+    width: 303px;
+    border-top: 2px solid black;
+    position: absolute; 
+    top: 0px;
+}
+
+.taking-Adv-Drug {
+    display: inline-block;
+    background: #F5F5F5;
+    padding-top: 20px;
+    padding-left: 20px;
+    /*border-top: 2px solid #000;*/
+    border-bottom: 2px solid #E9E9E9;
+    border-right: 2px solid #E9E9E9;
+    border-left: 2px solid #E9E9E9;
+    width: 303px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.taking-Adv-Drug h5 {
+    margin: 0px 0px 2px 0px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.taking-Adv-Drug div {
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    color: #646464;
+}
+
+.taking-Adv-Drug span {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #646464;
+    padding-bottom: 10px;
+}
+
+.taking-Adv-Drug span>span {
+    font-weight: 600;
+}
+.taking-Adv-Drug.box3 {
+    margin-right: 0px!important;
+}
+.needHelp {
+    position: relative;
+    padding: 5px 0px 50px 80px;
+    background: url(../images/icon-lg-need-help.png) no-repeat left -6px top 40px;
+    background-size: 80px;
+    border-bottom: 1px solid#CCCCCC;
+}
+
+.needHelp h4 {
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.needHelp h5 {
+    position: relative;
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-top: 38px;
+}
+
+.needHelp p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #1E1E1E;
+    padding-bottom: 10px;
+}
+
+.needHelp p a {
+    color: #1E1E1E;
+}
+
+.ans-ques {
+    border-top: 1px solid #ccc;
+}
+
+
+/*review changes page*/
+
+.mobile-btn button {
+    display: none;
+}
+
+.mobile-btn p {
+    display: none;
+}
+
+.display {
+    display: none;
+}
+
+.animateBox {
+    display: block;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 1000;
+    background: gray;
+}
+.animateBox
+{
+    display: block;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out; 
+    /*-webkit-animation-name: abc;*/
+     animation-name: stretch;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(1.50);
+    height: 50px;
+    width: 150px;
+    opacity: .75;
+  }
+  25% {
+    transform: scale(1.35);
+    opacity: .55;
+  }
+ 50% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+  75% {
+    transform: scale(.15);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0);
+    height: 0px;
+    width: 0px;
+    opacity: 0;
+
+  }
+}
+
+/*=======Jquery class =============*/
+
+.display {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.display-block {
+    z-index: 3;
+}
+
+button {
+    padding: 0px 20px 0px 20px;
+    background: #cc0000;
+    border: 2px solid #cc0000;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mobile-header-text{
+    display: none;
+}
+.footer-text{
+        display: none;
+}
+
+
+/*@media (max-width: 959px) */
+
+@media (max-width: 959px) {
+    div#linksToPages {
+        display: none;
+    }
+    #wrapper {
+        width: 100%;
+    }
+    #family {
+        display: block;
+        width: 100%;
+    }
+    .container h2 {
+        background-color: #DEDEDE;
+        padding: 10px 10px;
+        color: #cc0000;
+        font-size: 20px;
+    }
+    .container button+h2 {
+        padding: 10px;
+        background-color: none;
+        width: 100%;
+    }
+    .cust-header div:last-child {
+        float: none;
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        width: 300px;
+    }
+    .member.member1 .option:nth-child(2n+2) {
+        margin-right: 0px;
+    }
+    .member.member1 .option:nth-child(3n+3) {
+        margin-right: 25px;
+    }
+    .option-main{
+        width: 48%;
+        margin-right:2.5%;
+    }
+    .option-main:nth-child(2) {
+    margin-right: 0%;
+    
+    }
+    .option-main:nth-child(4) {
+    margin-right: 0%;
+    
+    }
+    .cust-header button {
+    right: -10px;
+    }
+    .cust-header div:last-child p {
+    right: -40px;
+    }
+    .member .option {
+        width: 100%;
+    }
+    .option-main .top-border{
+    width: 100%;
+    }
+    .taking-Adv-Drug{
+        margin-right: 0px;
+    }
+ 
+    .taking-Adv{
+    width: 48%;
+    margin-bottom: 5px;
+    }
+    .taking-Adv .top-border2{
+        width: 100%;
+    }
+
+    .taking-Adv:nth-child(even){
+        margin-right:20px;
+    }
+    div.taking-Adv-Drug {
+        width: 100%;
+    }
+    /*==============global-nav===========*/
+    span.icon-hamB {
+        display: inline-block;
+        float: right;
+        right: 20px;
+        bottom: 65px;
+        position: relative;
+    }
+    .displayB {
+        display: none;
+    }
+    /*header*/
+    .logo-links {
+        width: 100%;
+        background: #e8e8e8;
+        display: none;
+    }
+    .mobile-header-text{
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        color:#CC0000;
+        margin-bottom: 10px;
+    }
+    footer{
+        display: none;
+    }
+    .footer-text{
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        color:#CC0000;
+        margin-bottom: 10px;
+    }
+    .logo-links .logos .cobrand {
+        display: none;
+    }
+    #utility {
+        display: none;
+    }
+    .logo-links .links a {
+        display: none;
+    }
+    .basket {
+        display: none;
+    }
+    #menu {
+        width: 100%;
+        height: 151px;
+    }
+    #menu ul {
+        width: 100%;
+        position: relative;
+        bottom: 46px;
+    }
+    #menu ul li a {
+        width: 90%;
+        padding: 15px 20px 14px 10px;
+    }
+    #menu ul li {
+        float: none;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+    #menu ul li a.has-subnav {
+        background: url(../images/global-nav/nav-caret.png) no-repeat right 0px top 18px!important;
+        background-size: 25px 14px!important;
+        padding: 15px 0px 14px 10px!important;
+    }
+    #menu ul li a.active.has-subnav {
+        background: url(../images/global-nav/nav-caret.png) no-repeat right 0px top 18px!important;
+        background-size: 25px 14px!important;
+        padding: 15px 0px 14px 10px!important;
+    }
+    #menu ul li:hover ul a,
+    #menu ul ul li a:hover,
+    #menu ul ul li a.active {
+        width: 87%;
+    }
+    #menu ul li a.active:after,
+    #menu ul li:hover a.has-subnav:after {
+        display: none;
+    }
+    #menu ul li a.active.has-subnav {
+        background-color: #000!important;
+    }
+    #breadcrumb {
+        padding: 10px 0px 10px 10px;
+        width: 100%;
+    }
+    .mobile-inner {
+        height: 90px;
+        margin-top: 35px;
+        width: 100%;
+    }
+    .mobile-inner span {
+        display: none;
+    }
+    .mobile-inner div {
+        bottom: -5px;
+        position: relative;
+        min-width: 190px;
+    }
+    .app_center_logo span {
+        display: block;
+    }
+    .app_center_logo {
+        position: absolute!important;
+        right: 5px!important;
+        top: -10px!important;
+        min-width: 100px!important;
+    }
+    .app_center_logo a img {
+        width: 85px;
+        height: 30px;
+    }
+    #footer_main {
+        display: none;
+    }
+    /*==============global-nav===========*/
+}
+
+
+/*End of 959px*/
+
+
+/*@media (max-width: 767px) */
+
+@media (max-width: 767px) {
+    body{
+        margin:auto;
+    }
+    #wrapper{
+        width: 96%;
+        position: relative;
+        margin:0 auto;
+    }
+  
+    .saving-header h2{
+        width: 100%;
+    }
+    .animateBox {
+        display: none;
+    }
+    .select {
+        width: 100%;
+    }
+    .select-name {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .member .option-main{
+        width: 100%;
+    }
+    .member .option {
+        width: 100%;
+    }
+    .taking-Adv{
+    width: 100%;
+    margin-right:0%;
+    }
+    .taking-Adv .top-border2{
+    width: 100%;
+    }
+    div.taking-Adv-Drug {
+        width: 100%;
+    }
+    .doc {
+        padding-bottom: 40px;
+    }
+    .print4doct {
+        width: 100%;
+        padding: 0px 0px;
+        margin-left: 0px;
+    }
+
+    .mobile-btn p {
+        font-size: 22px!important;
+        background-color: #FFF;
+        padding:10px 0px;
+        margin:auto;
+        text-align: center;
+        width: 97%;
+
+    }
+    .cust-header div:last-child {
+        display: none;
+    }
+    .d-sign2{
+    display: none;
+    visibility: inherit;
+}
+   
+    .mobile-btn{
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        z-index: 2000;
+        padding: 25px 0px;
+        background-color: #f5f5f5;
+
+    }
+    .mobile-btn button {
+        display: block;
+        width: 97%;
+        color: #FFF;
+        position: relative;
+        margin:auto;
+    }
+
+    .mobile-btn button>span {
+        color: #CC0000;
+        position: absolute;
+        border-radius: 12px;
+        background-color: #FFF;
+        top: -10px;
+        right: -7px;
+        border: 3px solid #CC0000;
+        padding: 1px 6px;
+        line-height: 18px;
+        display: none;
+    }
+    .cust-header {
+        margin: 30px 10px 10px 10px;
+    }
+    .talk2doc {
+        margin-bottom: 40px;
+    }
+    .doc div:first-child h4 {
+        position: relative;
+        bottom: 0px;
+        font-size: 24px;
+        color: #cc0000;
+    }
+}
+
+
+/*End of 767px*/
+
+/*@media (max-width: 475px) {
+    .mobile-btn{
+        width: 96%;
+        position: fixed;
+        bottom: 0px;
+        z-index: 2000;
+    }
+}
+@media (max-width: 375px) {
+    .mobile-btn{
+        width: 94%;
+        position: fixed;
+        bottom: 0px;
+        z-index: 2000;
+    }
+}*/
+
+
+/*End of 375px*/
+
+
+/*firefox prefix*/
+
+@-moz-document url-prefix() {
+    .arrow-down {
+        top: 29px;
+    }
+    .check-All input[type="checkbox"] + label span {
+        left: -34px;
+        top: 20px;
+    }
+    input[type="checkbox"] + label {
+        left: 45px;
+        top: -20px;
+    }
+    label p {
+        bottom: 30px;
+        right: 147px;
+    }
+    input[type="checkbox"] + label span {
+        top: 24px;
+    }
+    .cust-header div:last-child p {
+        right: 155px;
+    }
+}
+
+
+}

@@ -1,0 +1,16 @@
+.saving-header h2 {
+    width: 410px;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+.no-action-req h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.needHelp {
+    position: relative;
+    padding: 5px 0px 50px 10px;
+    background: url(../images/icon-lg-need-help.png) no-repeat left -6px top 40px;
+    background-size: 0px;
+    border-bottom: 1px solid#CCCCCC;
+}
