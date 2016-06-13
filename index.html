@@ -1,472 +1,264 @@
 <!DOCTYPE html>
-<html>
+<!-- Based on HTML5 Bones | http://html5bones.com -->
 
+<html lang="en">
 <head>
-    <title>Caremark </title>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+
+    <title>Prescription Savings Guide</title>
+
+    <meta name="description" content="">
+
+    <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/global-nav.css">
-    <link rel="stylesheet" type="text/css" href="css/global/breadcrumb.css">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/forms.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" type="text/css" href="css/main-IE8.css">
-<![endif]-->
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-1.9.2.js"></script>
-    <script type="text/javascript" src="js/form.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+
+    <!-- Style sheet link -->
+    <link href="css/forms.css" rel="stylesheet" media="all">
+    <link href="css/style.css" rel="stylesheet" media="all">
 </head>
-
 <body>
-    <header>
-        <div id="linksToPages">
-            <img class="pageLink" src="images/icon-hamB.png" height="25px" width="25px">
-            <ul id="link-menu" class="display">
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="no-Active-Med.html">
-                    <li>No Active Medication</li>
-                </a>
-                <a href="no-current-savings.html">
-                    <li>No Current Savings
-                        <br>Opportunities</li>
-                </a>
-                <a href="Toolbox.html">
-                    <li>Tool Box</li>
-                </a>
-            </ul>
-        </div>
-        <div id="utility">
-            <div class="utility-links">
-                Welcome. Michael!
-                <span class="right">
-                      <a href="#">Profile</a>
-                      <a href="#">Messages</a>
-                      <a href="#">Help</a>
-                      <a href="#">Espanol</a>
-                       <span class="text-size">Change Text Size <span class="text-size-one">A</span> <span class="text-size-two">A</span> <span class="text-size-three">A</span></span>
-                <a href="#" class="last">Log Out</a>
-                </span>
-            </div>
-        </div>
-        <div class="logo-links">
-            <span class="logos">
-                <a href="#"><img src="images/global-nav/nys.png" height="50" width="200" alt="logo" border="0"  class="cobrand"/></a>
-                <a href="#"><img src="images/global-nav/logo.png" width="230" alt="logo" border="0" class="logo" /></a>
-            </span>
-            <span class="links">
-            <a href="#"  class="nav-order-status">Deductible Status<br>Status</a>
-                <a href="#"  class="nav-rx-locator">Pharmacy<br>Locator</a>
-            <a href="#" class="nav-cdc">Check Drug Cost<br>Coverage</a>
-            </span>
-        </div>
-        <span class="icon-hamB"><img src="images/icon-hamB.png"></span>
-        <div id="menu-outer" class="displayB">
-            <div id="menu">
-                <ul>
-                    <li class="main-nav-home">
-                        <a href="index.html" class="">Home</a>
-                    </li>
-                    <li class="main-nav-rx">
-                        <a id="has-subnav" href="link-with-sub-nav-active.html" class="has-subnav ">Prescriptions</a>
-                        <ul>
-                            <li><a href="#">View  Order Status</a></li>
-                            <li><a href="#">View/Refill All Prescriptions</a></li>
-                            <li><a href="#">Manage Automatic Refills</a></li>
-                            <li><a href="#">Track Prescription Costs</a></li>
-                            <li><a href="#">Transfer a Prescription</a></li>
-                            <li><a href="#">Start Mail Service</a></li>
-                            <li><a href="#">Request a New Prescription</a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-plans">
-                        <a href="#" class="has-subnav active">Plan & Benefits</a>
-                        <ul>
-                            <li><a href="#">Plan Summary</a></li>
-                            <li><a href="#">Check Drug Cost & Coverage</a></li>
-                            <li><a href="#">Pharmacy Locator</a></li>
-                            <li><a href="#">Print Member ID Card</a></li>
-                            <li><a href="#">Covered Drug List (Formulary)</a></li>
-                            <li><a href="#">Plan Savings Opportunities</a></li>
-                            <li><a href="#">Print Plan Forms</a></li>
-                            <li><a href="#">Specialty Pharmacy</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="search-cart">
-                    <a href="#">
-                        <div class="basket">
-                            <div class="badge">3</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="mobile-header-text">
-            < Site header goes here>
-        </div>
-        <div id="breadcrumb">
-            <a href="#" title="Home">Home</a><span></span>Plan & Benefits
-        </div>
+    <header role="banner">
+        <p><i>Global Site Header</i></p>
     </header>
-    <!-- header end -->
-    <!-- wrapper -->
-    <div id="wrapper">
-        <div class="saving-header">
-            <h2>You have <span class='numOfDrug'>000</span> Saving Opportunities for a savings of <span>$1200.00</span><span class="asterisk">&#42;</span></h2>
-            <p>&#42;Approx, savings,you will see actual cost savings when you add to cart. <a href="#">Learn more</a></p>
-        </div>
-        <div class="cust-header">
-            <div class="check-All">
-                <input class="checkbox" type="checkbox" id="checkboxAll" name="checkbox" value="30-day to 90-day" />
-                <label for="checkboxAll"><span></span><a class="text">Select All</a>
-                    <a class="totalNumb"></a>
-                </label>
-            </div>
-            <div>
-                <p class='d-sign'>
-                    <span>You save</span>
-                    <br>
-                    <span class='d-sign'>$<span class='total-amount count'></span>.00<span></span></span>
-                </p>
-                <form action="">
-                    <button class="inputDisabled" disabled="disabled">Add to Cart<span>0</span></button>
-                </form>
-            </div>
-        </div>
-        <div class="container">
-            <div id="family">
-                <!--Member 1-->
-                <div class="member member1">
-                    <div class="option-main">
-                        <div class="top-border"></div>
-                        <div class="option">
-                            <div class="drug-info">
-                                <h5>Lipitor</h5>
-                                <div>20MG Tablet</div>
-                                <span>For <span>Michael</span></span>
-                            </div>
-                            <div class="avgSaving">Switch & Save<span class="pricePerDrug"> $300.00</span>
-                                <div class="arrow-down"></div>
-                            </div>
-                            <div class="switchTo90day drug-checkbox">
-                                <div class="animate-box"></div>
-                                <div class="check">
-                                    <input class="checkbox" type="checkbox" id="checkbox1" name="checkbox" value="30-day to 90-day" />
-                                    <label for="checkbox1"><span></span></label>
-                                </div>
-                                <div class="switch">30-day to 90-day Mail Order</div>
-                                <span class="switch-option">Switch to 90-Day Mail</span>
-                            </div>
-                            <div class="swithToGeneric drug-checkbox">
-                                <div class="animate-box"></div>
-                                <div class="check">
-                                    <input class="checkbox" type="checkbox" id="checkbox2" name="checkbox" value="Brand to Generic" />
-                                    <label for="checkbox2"><span></span></label>
-                                </div>
-                                <div class="switch">Brand to Generic</div>
-                                <span class="switch-option">Switch to Atorvastatin</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="option-main">
-                        <div class="top-border"></div>
-                        <div class="option">
-                            <div class="drug-info">
-                                <h5>Celexa</h5>
-                                <div>20MG Tablet</div>
-                                <span>For <span>Michael</span></span>
-                            </div>
-                            <div class="avgSaving">Switch and Save<span class="pricePerDrug"> $150.00</span>
-                                <div class="arrow-down"></div>
-                            </div>
-                            <div class="switchTo90day drug-checkbox">
-                                <div class="animate-box"></div>
-                                <div class="check">
-                                    <input class="checkbox" type="checkbox" id="checkbox8" name="checkbox" value="30-day to 90-day" />
-                                    <label for="checkbox8"><span></span></label>
-                                </div>
-                                <div class="switch">30-day to 90-day Mail Order</div>
-                                <span class="switch-option">Switch to 90-Day Mail</span>
-                            </div>
-                            <div class="swithToGeneric drug-checkbox">
-                                <div class="animate-box"></div>
-                                <div class="check">
-                                    <input class="checkbox" type="checkbox" id="checkbox3" name="checkbox" value="Brand to Generic" />
-                                    <label for="checkbox3"><span></span></label>
-                                </div>
-                                <div class="switch">Brand to Generic</div>
-                                <span class="switch-option">Switch to Citalopram</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="option-main">
-                        <div class="top-border"></div>
-                        <div class="option box3">
-                            <div class="drug-info">
-                                <h5>Abarelix </h5>
-                                <div>20MG Tablet</div>
-                                <span>For <span>Michael</span> (Age 66)</span>
-                            </div>
-                            <div class="avgSaving">Switch and Save<span class="pricePerDrug"> $150.00</span>
-                                <div class="arrow-down"></div>
-                            </div>
-                            <div class="switchTo90day drug-checkbox">
-                                <div class="animate-box"></div>
-                                <div class="check">
-                                    <input class="checkbox" type="checkbox" id="checkbox4" name="checkbox" value="30-day to 90-day" />
-                                    <label for="checkbox4"><span></span></label>
-                                </div>
-                                <div class="switch">30-day to 90-day</div>
-                                <span class="switch-option">Switch to 90-Day Mail</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="option-main">
-                        <div class="top-border"></div>
-                        <div class="option">
-                            <div class="drug-info">
-                                <h5>Boniva</h5>
-                                <div>20MG Tablet</div>
-                                <span>For <span>Michael</span></span>
-                            </div>
-                            <div class="avgSaving">Switch and Save<span class="pricePerDrug"> $300.00</span>
-                                <div class="arrow-down"></div>
-                            </div>
-                            <div class="switchTo90day drug-checkbox">
-                                <div class="animate-box"></div>
-                                <div class="check">
-                                    <input class="checkbox" type="checkbox" id="checkbox5" name="checkbox" value="30-day to 90-day" />
-                                    <label for="checkbox5"><span></span></label>
-                                </div>
-                                <div class="switch">30-day to 90-day</div>
-                                <span class="switch-option">Switch to 90-Day Mail</span>
-                            </div>
-                            <div class="swithToGeneric drug-checkbox">
-                                <div class="animate-box"></div>
-                                <div class="check">
-                                    <input class="checkbox" type="checkbox" id="checkbox6" name="checkbox" value="Brand to Generic" />
-                                    <label for="checkbox6"><span></span></label>
-                                </div>
-                                <div class="switch">Brand to Generic</div>
-                                <span class="switch-option">Switch to Ibandronate</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="option-main">
-                        <div class="top-border"></div>
-                        <div class="option">
-                            <div class="drug-info">
-                                <h5>Nexium</h5>
-                                <div>20MG Tablet</div>
-                                <span>For <span>Michael</span></span>
-                            </div>
-                            <div class="avgSaving">Switch and Save<span class="pricePerDrug"> $150.00</span>
-                                <div class="arrow-down"></div>
-                            </div>
-                            <div class="swithToGeneric drug-checkbox">
-                                <div class="animate-box"></div>
-                                <div class="check">
-                                    <input class="checkbox" type="checkbox" id="checkbox7" name="checkbox" value="Brand to Generic" />
-                                    <label for="checkbox7"><span></span></label>
-                                </div>
-                                <div class="switch">Brand to Generic</div>
-                                <span class="switch-option">Switch to Esomeprazole</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--member1 end-->
-                <p class="fine-print">&#42;Estimated yearly savings.</p>
-            </div>
-            <!--#family-->
-            <div id="left-Aside-cart" style="">
-                <div class="doc">
-                    <div class="talk2doc">
-                        <h4>Need To talk with Your doctor First?</h4>
-                        <p>Print your Prescription Savings Report to bring to your doctor's office</p>
-                    </div>
-                    <div class="select-name">
-                        <select>
-                            <option>Everyone</option>
-                            <option>Michael</option>
-                            <option>Madison</option>
-                        </select>
-                    </div>
-                    <a href="#">
-                        <div class="print4doct">
-                            <div><img src="images/icon-printer.png" height="30" width="30"></div>
-                            <p>Generate My Rx Report
-                                <p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="no-action-req">
-                <div class="tropy">
-                    <h4>Keep up the Good Work!</h4>
-                    <p>You're already taking advantage of all the available savings opportunities for the following drugs.
-                        <br>We'll let you know if more become available.</p>
-                </div>
-                <div class="taking-Adv">
-                    <div class="top-border2"></div>
-                    <div class="taking-Adv-Drug">
-                        <h5>CITALOPRAM</h5>
-                        <div>20MG Tablet</div>
-                        <span>For <span>Michael</span> (Age 66)</span>
-                    </div>
-                </div>
-                <div class="taking-Adv">
-                    <div class="top-border2"></div>
-                    <div class="taking-Adv-Drug">
-                        <h5>ACIPHEX</h5>
-                        <div>20MG Tablet</div>
-                        <span>For <span>Michael</span></span>
-                    </div>
-                </div>
-                <div class="taking-Adv">
-                    <div class="top-border2"></div>
-                    <div class="taking-Adv-Drug box3">
-                        <h5>Boniva</h5>
-                        <div>20MG Tablet</div>
-                        <span>For <span>Michael</span></span>
-                    </div>
-                </div>
-                <div class="taking-Adv">
-                    <div class="top-border2"></div>
-                    <div class="taking-Adv-Drug">
-                        <h5>ACIPHEX</h5>
-                        <div>20MG Tablet</div>
-                        <span>For <span>Michael</span></span>
-                    </div>
-                </div>
-                <div class="taking-Adv">
-                    <div class="top-border2"></div>
-                    <div class="taking-Adv-Drug">
-                        <h5>ACIPHEX</h5>
-                        <div>20MG Tablet</div>
-                        <span>For <span>Michael</span></span>
-                    </div>
-                </div>
-                <div class="taking-Adv">
-                    <div class="top-border2"></div>
-                    <div class="taking-Adv-Drug box3">
-                        <h5>ACIPHEX</h5>
-                        <div>20MG Tablet</div>
-                        <span>For <span>Michael</span></span>
+    <main role="main">
+        <div id="psg">
+            <h1>Prescription Savings Guide</h1>
+            <p>You could be saving <span class="text-red"><b>$3,500.00</b>*</span> on 4 of your current prescriptions.  <a href="#faq">Any questions?</a></p>
+            
+            <div id="controls" class="clearfix">
+                <div id="max-button-box"><a id="max-button" href="#" class="button secondary">Select Max Savings</a></div>
+                <div id="add-save-container">
+                    <p id="you-save" style="display:none;"><span>You Save</span><span id="savings">$<span id="amt">0.00</span>*</span></p>
+                    <div id="add-button-box">
+                        <a id="add-button" href="#" class="button primary disabled">Add to Cart</a>
+                        <span id="dot">0</span>
                     </div>
                 </div>
             </div>
-            <div class="needHelp">
-                <h5>Need help?</h5>
-                <p>If you don't find your question below, see <a href="#">our list of FAQs</a> or <a href="#">contact us</a>.</p>
-                <div class="ans-ques">
-                    <h4>What does “add to cart” mean?</h4>
-                    <p>Adding a medication to the card is the first step toward requesting a refill or a new prescription. The next step is to provide the necessary information and confirm your order. Then we will process your refill or contact your doctor on your behalf to request a new prescription. Your doctor must approve your prescription requests before they can be filled.</p>
-                </div>
-                <div class="ans-ques">
-                    <h4>Question?</h4>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mobile-btn">
-        <button class="inputDisabled" disabled="disabled">Continue<span>0</span></button>
-        <p class='d-sign2'>You save
-            <span class='d-sign2'>$<span class='total-amount count'>0</span>.00<span></span></span>
-        </p>
-    </div>
-    <!--/ wrapper -->
-    <!-- footer Strat -->
-    <div class="footer-text">
-        < Site footer goes here>
-    </div>
-    <footer>
-        <div id="mobile">
-            <div class="mobile-inner">
-                <span><img src="images/global-nav/mobile_logo.png" border="0"></span>
-                <div class="download_app">
-                    CVS/caremark&#8482; app lets you manage your prescription benefits on the go. Download it now:
-                </div>
-                <div class="app_center_logo">
-                    <a href="#"><span><img src="images/global-nav/app_download.png" border="0"></span></a>
-                    <a href="#"><span><img src="images/global-nav/goog_download.png" border="0"></span></a>
-                </div>
-            </div>
-        </div>
-        <div id="footer_main">
-            <div class="footer_link_header">
-                <h4>Prescription</h4>
-                <ul>
-                    <li><a href="#">View  Order Status</a></li>
-                    <li><a href="#">View/Refill All Prescriptions</a></li>
-                    <li><a href="#">Manage Automatic Refills</a></li>
-                    <li><a href="#">Track Prescription Costs</a></li>
-                    <li><a href="#">Transfer a Prescription</a></li>
-                    <li><a href="#">Start Mail Service</a></li>
-                    <li><a href="#">Request a New Prescription</a></li>
-                </ul>
-            </div>
-            <div class="footer_link_header">
-                <h4>Plan & Benefits</h4>
-                <ul>
-                    <li><a href="#">Plan Summary</a></li>
-                    <li><a href="#">Check Drug Cost & Coverage</a></li>
-                    <li><a href="#">Pharmacy Locator</a></li>
-                    <li><a href="#">Print Member ID Card</a></li>
-                    <li><a href="#">Covered Drug List (Formulary)</a></li>
-                    <li><a href="#">Plan Savings Opportunities</a></li>
-                    <li><a href="#">Print Plan Forms</a></li>
-                    <li><a href="#">Specialty Pharmacy</a></li>
-                </ul>
-            </div>
-            <div class="footer_link_header ">
-                <h4 class="footer_non_header">Health Resources</h4>
-                <ul>
-                    <li><a href="#">Drug Reference & Interactions</a></li>
-                    <li><a href="#">About Generics</a></li>
-                    <li><a href="#">Email a Pharmacist</a></li>
-                    <li><a href="#">Pharmacist FAQs</a></li>
-                    <li><a href="#">Medication Safety Alerts</a></li>
-                </ul>
-            </div>
-            <div class="footer_link_header last">
-                <h4 class="footer_non_header">Need Help?</h4>
-                <ul>
-                    <li><a href="#">Contact CVS/caremark</a></li>
-                    <li><a href="#">Web Support FAQs</a></li>
-                    <li><a href="#">Questions about disposal of medications?</a></li>
-                </ul>
-                <h4 class="footer_non_header">About Us</h4>
-                <ul>
-                    <li><a href="#">About CVS/caremark</a></li>
-                </ul>
-                <h4 class="footer_non_header">Search</h4>
-                <div class="search-box">
-                    <form>
-                        <input type="text" placeholder="Search Meds, Plan Info...">
-                        <input type="submit" value="">
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div id="legal_row">
-            <div class="legal_inner">
-                <div>Copyright &copy; 2015 CVS/caremark. All rights reserved</div>
-                <div><a href="about-us/terms-conditions.html">Terms and conditions</a></div>
-                <div><a href="about-us/privacy-policy.html">Privacy Policy</a></div>
-                <div><a href="about-us/accessibility.html">Accessibility</a></div>
-                <div class="last"><a href="#">Member Rights & Responsibilities</a></div>
-            </div>
-        </div>
-        <div class="footer-branding-line">
-            106-34407b 051215
-        </div>
-    </footer>
-</body>
 
+            <ul class="drug-list clearfix">
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName1</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Michael</b></p>
+                    </div>
+                    <div class="best-banner">
+                        <p>Best Savings</p>
+                    </div>
+                    <ul class="drug-opps">
+                        <li class="drug-opp best">
+                            <input type="checkbox" name="drug-opp1" id="drug-opp1-1" value="1000">
+                            <label for="drug-opp1-1">
+                                <span><b>Generic &amp; 90-Day Mail</b></span>
+                                <span>Switch and Save $1,000.00*</span>
+                            </label>
+                        </li>
+                        <li class="drug-opp">
+                            <input type="checkbox" name="drug-opp1" id="drug-opp1-2" value="500">
+                            <label for="drug-opp1-2">
+                                <span><b>90-Day Mail</b></span>
+                                <span>Switch and Save $500.00*</span>
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName2</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 41</p>
+                    </div>
+                    <div class="best-banner">
+                        <p>Best Savings</p>
+                    </div>
+                    <ul class="drug-opps">
+                        <li class="drug-opp best">
+                            <input type="checkbox" name="drug-opp2" id="drug-opp2-1" value="1000">
+                            <label for="drug-opp2-1">
+                                <span><b>Generic &amp; 90-Day Mail</b></span>
+                                <span>Switch and Save $1,000.00*</span>
+                            </label>
+                        </li>
+                        <li class="drug-opp">
+                            <input type="checkbox" name="drug-opp2" id="drug-opp2-2" value="500">
+                            <label for="drug-opp2-2">
+                                <span><b>90-Day Mail</b></span>
+                                <span>Switch and Save $500.00*</span>
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName3</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 41</p>
+                    </div>
+                    <div class="best-banner">
+                        <p>Best Savings</p>
+                    </div>
+                    <ul class="drug-opps">
+                        <li class="drug-opp best">
+                            <input type="checkbox" name="drug-opp3" id="drug-opp3-1" value="1000">
+                            <label for="drug-opp3-1">
+                                <span><b>Change to Generic</b></span>
+                                <span>Switch and Save $1,000.00*</span>
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName4</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 12</p>
+                    </div>
+                    <div class="best-banner">
+                        <p>Best Savings</p>
+                    </div>
+                    <ul class="drug-opps">
+                        <li class="drug-opp best">
+                            <input type="checkbox" name="drug-opp4" id="drug-opp4-1" value="500">
+                            <label for="drug-opp4-1">
+                                <span><b>90-Day Mail</b></span>
+                                <span>Switch and Save $500.00*</span>
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="text-muted">*Estimated annual savings based on your $500.00 deductible</p>
+        </div>
+
+        <div id="print" class="content-block">
+            <h2>Need to talk to your doctor first?</h2>
+            <p>Print your prescription savings report to take to your doctor’s office</p>
+            <form class="clearfix">
+                <select>
+                    <option value="1">Everyone</option>
+                    <option value="2">Pat</option>
+                    <option value="3">Darren</option>
+                </select>
+                <button class="button tertiary icon-button icon-print">Generate My Rx Report</button>
+            </form>
+        </div>
+
+        <div id="no-savings" class="content-block">
+            <h2>Keep up the good work!</h2>
+            <p>You’re already taking advantage of all the available savings opporunities for the following drugs.   We’ll let you know if more become available.</p>
+            <ul class="drug-list hidden clearfix">
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName5</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Michael</b></p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName6</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Michael</b></p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName7</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Michael</b></p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName8</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 41</p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName9</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 41</p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName10</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 41</p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName11</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 41</p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName12</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 14</p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName13</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 14</p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName14</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 14</p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName15</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 14</p>
+                    </div>
+                </li>
+                <li class="drug">
+                    <div class="drug-info">
+                        <h3>DrugName16</h3>
+                        <p>40MG Tablet</p>
+                        <p>For <b>Pat</b>, age 14</p>
+                    </div>
+                </li>
+            </ul>
+            <p class="show-more">
+                <a href="#">Show All (12)</a>
+                <a style="display: none;" href="#">Show Less</a>
+            </p>
+        </div>
+
+        <div id="faq" class="content-block">
+            <h2>Need help?</h2>
+            <p>If you don't find your question below, see <a href="#">our list of FAQs</a> or <a href="#">contact us</a>.</p>
+            <dl class="faq-list">
+                <dt>Question?</dt>
+                <dd>Answer.</dd>
+                <dt>Question?</dt>
+                <dd>Answer.</dd>
+            </dl>
+        </div>
+
+    </main><!-- End primary page content -->
+    <footer role="contentinfo">
+        <p><i>Global Site Footer</i></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
